@@ -26,13 +26,11 @@ export function Hero() {
             Hi, I&apos;m <span className="text-white">Sourav</span>
           </h1>
           <p className="text-lg md:text-2xl text-neutral-500 font-medium">
-            Software Developer
+            Full-Stack Developer
           </p>
           
           <p className="mx-auto max-w-xl text-lg leading-relaxed text-neutral-400 sm:text-xl pt-4">
-            I build clean, high-performance web applications. Focused on{" "}
-            <span className="text-neutral-200">Next.js</span>,{" "}
-            <span className="text-neutral-200">Node.js</span>, and modern web technologies.
+            Loves how software works and its potential to change lives
           </p>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 pt-6">

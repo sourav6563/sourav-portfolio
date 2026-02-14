@@ -61,7 +61,7 @@ export function Contact() {
       <div className="container py-8 md:py-16">
         <div className="mx-auto max-w-2xl text-center space-y-8">
           <div className="space-y-3">
-            <p className="text-sm font-medium tracking-widest text-neutral-500 uppercase">Contact</p>
+            <p className="text-sm font-medium tracking-widest text-neutral-500 uppercase underline underline-offset-4">Contact</p>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               Let&apos;s <span className="text-white">connect</span>
             </h2>
