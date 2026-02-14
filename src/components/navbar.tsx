@@ -8,7 +8,7 @@ import { Menu, Github } from "lucide-react";
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#featured", label: "Projects" },
+  { href: "#featured", label: "Work" },
   { href: "https://blog.souravmahato.in", label: "Blog" },
   { href: "#contact", label: "Contact" },
 ];

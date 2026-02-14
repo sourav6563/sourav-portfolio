@@ -71,7 +71,7 @@ export function BlogCarousel({ posts }: { posts: BlogPost[] }) {
         }}
         plugins={[
           Autoplay({
-            delay: 2000,
+            delay: 3000,
             stopOnInteraction: false,
             stopOnMouseEnter: false,
           }),

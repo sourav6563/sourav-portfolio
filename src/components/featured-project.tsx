@@ -41,12 +41,12 @@ export function FeaturedProject() {
       <div className="container py-8 md:py-16 space-y-8 md:space-y-12">
         {/* Section Header */}
         <div className="mx-auto max-w-3xl text-center space-y-3">
-          <p className="text-sm font-medium tracking-widest text-neutral-500 uppercase">Flagship Work</p>
+          <p className="text-sm font-medium tracking-widest text-neutral-500 uppercase underline underline-offset-4">Flagship Work</p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Featured <span className="text-white">Project</span>
           </h2>
           <p className="text-neutral-500 max-w-xl mx-auto">
-            One project. Full-stack. Custom auth, aggregation pipelines, real-time social features, and production deployment.
+           A full-stack video platform project where I explored authentication, social features, and real-world deployment.
           </p>
         </div>
 
