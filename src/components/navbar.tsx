@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useCallback } from "react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu, Github } from "lucide-react";
 
 const navLinks = [
@@ -79,6 +79,7 @@ export function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="pr-0 bg-black/95 backdrop-blur-xl border-l border-white/10">
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <div className="flex flex-col space-y-4 mt-6 px-4">
                   {navLinks.map((link) =>
                     link.href.startsWith("http") ? (
@@ -110,7 +111,6 @@ export function Navbar() {
                       className="text-lg text-neutral-400 hover:text-white transition-colors flex items-center gap-2"
                       onClick={() => setIsOpen(false)}
                     >
-                      <Github className="h-5 w-5" />
                       GitHub
                     </a>
                 </div>

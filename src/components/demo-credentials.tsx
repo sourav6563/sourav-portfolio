@@ -26,7 +26,7 @@ export function DemoCredentials() {
         Demo Credentials:
       </span>
 
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         {/* Email Copy Item */}
         <button
           onClick={() => copyToClipboard("dancely@gmail.com", true)}
