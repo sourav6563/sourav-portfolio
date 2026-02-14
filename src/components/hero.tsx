@@ -5,7 +5,7 @@ import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="container flex min-h-[calc(100vh-4rem)] max-w-screen-2xl flex-col items-center justify-center space-y-8 py-16 text-center md:py-16">
+      <div className="container flex min-h-[calc(100dvh-3.5rem)] md:min-h-[calc(100vh-4rem)] max-w-screen-2xl flex-col items-center justify-center space-y-4 md:space-y-8 py-4 md:py-16 text-center">
         <div className="space-y-6 flex flex-col items-center">
           <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-neutral-400 mb-2">
             <span className="mr-2 inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -25,7 +25,7 @@ export function Hero() {
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
             Hi, I&apos;m <span className="text-white">Sourav</span>
           </h1>
-          <p className="text-xl md:text-2xl text-neutral-500 font-medium">
+          <p className="text-lg md:text-2xl text-neutral-500 font-medium">
             Software Developer
           </p>
           

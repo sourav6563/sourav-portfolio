@@ -58,7 +58,7 @@ const socials = [
 export function Contact() {
   return (
     <footer id="contact" className="relative">
-      <div className="container py-10 md:py-16">
+      <div className="container py-8 md:py-16">
         <div className="mx-auto max-w-2xl text-center space-y-8">
           <div className="space-y-3">
             <p className="text-sm font-medium tracking-widest text-neutral-500 uppercase">Contact</p>
@@ -88,7 +88,7 @@ export function Contact() {
                 href={social.href}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-2 rounded-full border border-white/8 bg-white/[0.02] px-5 py-2.5 text-sm text-neutral-500 hover:text-white hover:border-white/15 hover:bg-white/5 transition-all duration-200"
+                className="flex items-center gap-2 rounded-full border border-white/8 bg-white/2 px-5 py-2.5 text-sm text-neutral-500 hover:text-white hover:border-white/15 hover:bg-white/5 transition-all duration-200"
               >
                 {social.icon && <social.icon className="h-4 w-4" />}
                 {social.label}

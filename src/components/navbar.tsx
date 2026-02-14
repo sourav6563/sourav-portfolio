@@ -29,10 +29,10 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/60 backdrop-blur-2xl">
-      <div className="flex h-16 w-full items-center justify-between px-6 md:px-8">
+      <div className="flex h-14 md:h-16 w-full items-center justify-between px-4 md:px-8">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2 group">
-            <span className="text-xl font-bold tracking-tight text-white">
+            <span className="text-lg md:text-xl font-bold tracking-tight text-white">
               Sourav Mahato
             </span>
           </Link>
