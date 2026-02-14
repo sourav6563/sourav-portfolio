@@ -30,7 +30,7 @@ export function Hero() {
           </p>
           
           <p className="mx-auto max-w-xl text-lg leading-relaxed text-neutral-400 sm:text-xl pt-4">
-            Loves how software works and its potential to change lives
+            Love how software works and its potential to change lives
           </p>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
