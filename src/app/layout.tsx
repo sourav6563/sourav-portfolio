@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "900"] });
 
@@ -36,6 +37,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth dark">
       <body className={cn(inter.className, "bg-background text-foreground antialiased min-h-screen")}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
