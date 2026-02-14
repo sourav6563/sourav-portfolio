@@ -5,7 +5,7 @@ import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="container flex min-h-[calc(100dvh-3.5rem)] md:min-h-[calc(100vh-4rem)] max-w-screen-2xl flex-col items-center justify-center space-y-4 md:space-y-8 pt-4 pb-12 md:py-16 text-center">
+      <div className="container flex min-h-[calc(100svh-3.5rem)] md:min-h-[calc(100vh-4rem)] max-w-screen-2xl flex-col items-center justify-center space-y-4 md:space-y-8 pt-20 pb-12 md:py-16 text-center">
         <div className="space-y-4 flex flex-col items-center">
           <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-neutral-400 mb-6">
             <span className="mr-2 inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -36,7 +36,7 @@ export function Hero() {
         <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
           <Button asChild size="lg" className="rounded-full px-8 bg-white text-black hover:bg-neutral-200 transition-all duration-200 cursor-pointer">
             <a href="#featured" className="flex items-center">
-              View Projects <ArrowRight className="ml-2 h-4 w-4" />
+              View My Work <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
         </div>
