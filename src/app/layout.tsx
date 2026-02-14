@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
 import JsonLd from "@/components/JsonLd";
+
 
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "900"] });
 
@@ -53,6 +55,7 @@ export default function RootLayout({
       <body className={cn(inter.className, "bg-background text-foreground antialiased min-h-screen")}>
         <JsonLd />
         {children}
+        <Analytics />
       </body>
     </html>
   );
