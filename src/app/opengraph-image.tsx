@@ -64,7 +64,7 @@ export default async function Image() {
             fontWeight: 500,
           }}
         >
-          Software Developer | Next.js
+          Full-Stack Developer
         </div>
       </div>
     ),

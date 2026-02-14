@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://souravmahato.in"),
-  title: "Sourav Mahato | Software Developer",
+  title: "Sourav Mahato | Full-Stack Developer",
   description: "Portfolio of Sourav Mahato, a Software Developer specialized in Next.js, Node.js, and modern web technologies. Creator of Dancely.",
   keywords: ["Sourav Mahato", "Software Developer", "Full Stack Developer", "Next.js", "React", "Node.js", "Dancely"],
   authors: [{ name: "Sourav Mahato" }],
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://souravmahato.in",
-    title: "Sourav Mahato | Software Developer",
+    title: "Sourav Mahato | Full-Stack Developer",
     description: "Portfolio of Sourav Mahato, a Software Developer specialized in Next.js, Node.js, and modern web technologies.",
     siteName: "Sourav Mahato Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sourav Mahato | Software Developer",
+    title: "Sourav Mahato | Full-Stack Developer",
     description: "Portfolio of Sourav Mahato, a Software Developer specialized in Next.js, Node.js, and modern web technologies.",
     creator: "@souravmahato",
   },
