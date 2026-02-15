@@ -29,7 +29,7 @@ export function DemoCredentials() {
       <div className="flex flex-wrap items-center gap-2">
         {/* Email Copy Item */}
         <button
-          onClick={() => copyToClipboard("dancely@gmail.com", true)}
+          onClick={() => copyToClipboard("dancelydemo@gmail.com", true)}
           className="group flex items-center gap-1.5 bg-black/40 hover:bg-black/60 border border-white/5 hover:border-white/20 transition-all rounded-md px-2 py-1 cursor-pointer"
           title="Copy Email"
         >

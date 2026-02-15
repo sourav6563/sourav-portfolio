@@ -21,11 +21,13 @@ const backendHighlights = [
 const frontendHighlights = [
   { title: "SEO & PWA Support" },
   { title: "Social Engagement" },
-  { title: "Content Dashboard" },
   { title: "Playlist Management" },
-  { title: "Infinite Scroll Feed" },
+  { title: "Content Dashboard" },
+  { title: "Enhanced Playback" },
+  { title: "Video Preview" },
   { title: "Global Search" },
-  { title: "Instant Interactions" },
+  { title: "Seamless Scrolling" },
+  { title: "Optimistic UI" },
   { title: "Server State Management" },
 ];
 
