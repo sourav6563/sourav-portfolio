@@ -28,6 +28,7 @@ const skillCategories = [
     title: "Professional",
     skills: [
       "Problem Solving",
+      "Creative Thinking",
       "Effective Communication",
       "Team Collaboration",
       "Time Management",
