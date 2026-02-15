@@ -34,7 +34,7 @@ export function DemoCredentials() {
           title="Copy Email"
         >
           <User className="w-3 h-3 text-neutral-500 group-hover:text-neutral-300" />
-          <code className="font-mono text-neutral-300 group-hover:text-white">dancely@gmail.com</code>
+          <code className="font-mono text-neutral-300 group-hover:text-white">dancelydemo@gmail.com</code>
           {copiedEmail ? (
             <Check className="w-3 h-3 text-emerald-500" />
           ) : (
