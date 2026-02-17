@@ -1,15 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { ArrowUpRight } from "lucide-react";
-import { BlogPost } from "@/lib/hashnode";
+import { BlogPost } from "@/lib/types";
 
-// Helper for date formatting
-function formatDate(isoString: string) {
-  return new Date(isoString).toLocaleDateString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
-}
+
 
 export function BlogCard({ post }: { post: BlogPost }) {
   return (
@@ -24,11 +17,9 @@ export function BlogCard({ post }: { post: BlogPost }) {
           variant="outline"
           className="text-[10px] uppercase tracking-wider font-medium border-white/10 text-neutral-400 bg-transparent group-hover:text-neutral-300 group-hover:border-white/20 transition-colors"
         >
-          Blog
+          {post.url.includes("dev.to") ? "Dev.to" : "Blog"}
         </Badge>
-        <span className="text-xs text-neutral-500 font-medium">
-          {formatDate(post.publishedAt)}
-        </span>
+
       </div>
 
       <h3 className="text-xl md:text-2xl font-bold mb-4 text-neutral-200 group-hover:text-white transition-colors leading-snug">
