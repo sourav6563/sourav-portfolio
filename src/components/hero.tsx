@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
@@ -33,7 +33,7 @@ export function Hero() {
             Love how software works and its potential to change lives
           </p>
         </div>
-        <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
+        <div className="flex flex-col items-center gap-3 pt-6">
           <Button asChild size="lg" className="rounded-full px-8 bg-white text-black hover:bg-neutral-200 transition-all duration-200 cursor-pointer">
             <a href="#featured" className="flex items-center">
               View My Work <ArrowRight className="ml-2 h-4 w-4" />
@@ -41,7 +41,6 @@ export function Hero() {
           </Button>
           <Button asChild size="lg" variant="outline" className="rounded-full px-8 border-white/15 bg-white/5 text-neutral-300 hover:bg-white/10 hover:text-white hover:border-white/25 transition-all duration-200 cursor-pointer">
             <a href="/Sourav_Mahato_Resume.pdf" target="_blank" rel="noreferrer" className="flex items-center">
-              <Download className="mr-2 h-4 w-4" />
               Resume
             </a>
           </Button>
