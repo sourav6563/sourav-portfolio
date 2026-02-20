@@ -11,6 +11,7 @@ const navLinks = [
   { href: "#featured", label: "Work" },
   { href: "https://blog.souravmahato.in", label: "Blog" },
   { href: "#contact", label: "Contact" },
+  { href: "/Sourav_Mahato_Resume.pdf", label: "Resume", newTab: true },
 ];
 
 export function Navbar() {
@@ -39,7 +40,7 @@ export function Navbar() {
         </div>
         <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
           {navLinks.map((link) =>
-            link.href.startsWith("http") ? (
+            link.href.startsWith("http") || link.newTab ? (
               <a
                 key={link.href}
                 href={link.href}
@@ -82,7 +83,7 @@ export function Navbar() {
                 <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                 <div className="flex flex-col space-y-4 mt-6 px-4">
                   {navLinks.map((link) =>
-                    link.href.startsWith("http") ? (
+                    link.href.startsWith("http") || link.newTab ? (
                       <a
                         key={link.href}
                         href={link.href}

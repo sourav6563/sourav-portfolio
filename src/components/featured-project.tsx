@@ -76,7 +76,7 @@ export function FeaturedProject() {
             </p>
 
             <div className="flex flex-wrap gap-1.5 md:gap-2">
-              {["TypeScript", "Express.js", "MongoDB", "Zod", "Next.js", "React", "Tailwind CSS", "Shadcn UI", "Cloudinary", "Resend"].map((tech) => (
+              {["TypeScript", "Express.js", "MongoDB", "Zod", "Next.js", "React", "TanStack Query", "Tailwind CSS", "Shadcn UI", "Cloudinary", "Resend"].map((tech) => (
                 <Badge key={tech} variant="secondary" className="bg-neutral-900 text-neutral-300 border-neutral-800 hover:bg-neutral-800 text-[10px] px-2 py-0.5 md:text-xs md:px-2.5 md:py-0.5">
                   {tech}
                 </Badge>

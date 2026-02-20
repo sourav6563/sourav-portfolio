@@ -1,22 +1,25 @@
-
 import { Badge } from "@/components/ui/badge";
 
 const skillCategories = [
   {
     title: "Technical",
     skills: [
+      "TypeScript",
+      "JavaScript",
       "Node.js",
       "Express",
       "MongoDB",
       "PostgreSQL",
       "REST API",
       "Zod",
-      "Next.js",
+      "Postman",
+      "Swagger",
       "React",
-      "TypeScript",
-      "JavaScript",
+      "Next.js",
       "Tailwind CSS",
       "Shadcn UI",
+      "TanStack Query",
+      "Vercel",
       "AWS",
       "Docker",
       "Linux",
