@@ -24,7 +24,6 @@ const frontendHighlights = [
   { title: "Playlist Management" },
   { title: "Content Dashboard" },
   { title: "Enhanced Playback" },
-  { title: "Video Preview" },
   { title: "Global Search" },
   { title: "Seamless Scrolling" },
   { title: "Optimistic UI" },
