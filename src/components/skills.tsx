@@ -1,45 +1,29 @@
 import { Badge } from "@/components/ui/badge";
 
-const skillCategories = [
-  {
-    title: "Technical",
-    skills: [
-      "TypeScript",
-      "JavaScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "PostgreSQL",
-      "Appwrite",
-      "REST API",
-      "Zod",
-      "Postman",
-      "Swagger",
-      "React",
-      "Next.js",
-      "Redux",
-      "TanStack Query",
-      "Tailwind CSS",
-      "Shadcn UI",
-      "Vercel",
-      "AWS",
-      "Docker",
-      "Linux",
-      "Git",
-      "GitHub",
-    ],
-  },
-  {
-    title: "Professional",
-    skills: [
-      "Problem Solving",
-      "Creative Thinking",
-      "Effective Communication",
-      "Team Collaboration",
-      "Time Management",
-      "Adaptability",
-    ],
-  },
+const skills = [
+  "TypeScript",
+  "JavaScript",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "PostgreSQL",
+  "Appwrite",
+  "REST API",
+  "Zod",
+  "Postman",
+  "Swagger",
+  "React",
+  "Next.js",
+  "Redux",
+  "TanStack Query",
+  "Tailwind CSS",
+  "Shadcn UI",
+  "Vercel",
+  "AWS",
+  "Docker",
+  "Linux",
+  "Git",
+  "GitHub",
 ];
 
 export function Skills() {
@@ -50,25 +34,18 @@ export function Skills() {
           Skills
         </p>
       </div>
-      <div className="mx-auto max-w-3xl space-y-8">
-        {skillCategories.map((category) => (
-          <div key={category.title} className="space-y-4">
-            <h3 className="text-lg font-medium text-neutral-400 text-center mb-4">
-              -- {category.title} --
-            </h3>
-            <div className="flex flex-wrap justify-center gap-2">
-              {category.skills.map((skill) => (
-                <Badge
-                  key={skill}
-                  variant="secondary"
-                  className="text-xs md:text-sm py-1.5 px-3 md:py-2 md:px-5 rounded-full border border-white/8 bg-white/5 text-neutral-400 hover:bg-white/10 hover:text-white hover:border-white/15 transition-all duration-200 cursor-default"
-                >
-                  {skill}
-                </Badge>
-              ))}
-            </div>
-          </div>
-        ))}
+      <div className="mx-auto max-w-3xl">
+        <div className="flex flex-wrap justify-center gap-2.5 md:gap-3">
+          {skills.map((skill) => (
+            <Badge
+              key={skill}
+              variant="secondary"
+              className="text-xs md:text-sm py-1.5 px-3 md:py-2 md:px-5 rounded-full border border-white/8 bg-white/5 text-neutral-400 hover:bg-white/10 hover:text-white hover:border-white/15 transition-all duration-200 cursor-default"
+            >
+              {skill}
+            </Badge>
+          ))}
+        </div>
       </div>
     </section>
   );
