@@ -18,7 +18,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           className="text-[10px] uppercase tracking-wider font-medium border-white/10 text-neutral-400 bg-transparent group-hover:text-neutral-300 group-hover:border-white/20 transition-colors"
         >
           {post.url.includes("dev.to") ? "Dev.to" : "Blog"}
-        </Badge>
+        </Badge> 
 
       </div>
 
